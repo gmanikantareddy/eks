@@ -1,4 +1,4 @@
-/*
+
 data "aws_iam_policy_document" "aws_lbc" {
   statement {
     effect = "Allow"
@@ -65,4 +65,3 @@ resource "helm_release" "aws_lbc" {
 }
 
 
-*/

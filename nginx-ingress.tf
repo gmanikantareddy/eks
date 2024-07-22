@@ -1,4 +1,4 @@
-/*
+
 
 resource "helm_release" "external_nginx" {
   name = "external"
@@ -14,4 +14,3 @@ resource "helm_release" "external_nginx" {
   depends_on = [helm_release.aws_lbc]
 }
 
-*/

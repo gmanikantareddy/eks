@@ -1,4 +1,4 @@
-/*
+
 
 resource "helm_release" "cert_manager" {
   name = "cert-manager"
@@ -17,4 +17,3 @@ resource "helm_release" "cert_manager" {
   depends_on = [helm_release.external_nginx]
 }
 
-*/
